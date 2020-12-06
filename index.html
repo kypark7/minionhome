@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> <title> MINIONS </title>
+
+<link href="https://fonts.googleapis.com/css?family=Bungee|Holtwood+One+SC|Jaldi|Mouse+Memoirs" rel="stylesheet">
+
+<!--    è«›ë?ê¹?¿½ë¶¾ãˆƒ-->
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+     background: #FCE550 url("http://www.mahaveerverma.com/wp-content/uploads/2015/11/il_fullxfull.807088242_dl39.jpg") no-repeat center ;
+
+    background-position: top;
+
+    margin-top: 10px;
+
+}
+
+    </style>
+
+<!--    ï¿½ê³·?’ï§Žë¶¾ë±è«›ï¿½-->
+
+    <style>
+
+
+
+.navbar {font-family: 'Holtwood One SC', serif;
+
+    overflow: hidden;
+
+    
+
+ background-color: darkorange;
+
+  
+
+}
+
+
+
+.navbar a {
+
+    float: left;
+
+    font-size: 16px;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+    background-color: #FCE550;
+
+
+
+}
+
+
+
+.dropdown {
+
+    float: right;
+
+    margin-right: 46%;
+
+    overflow: hidden;
+
+    background-color: #FCE550;
+
+}
+
+
+
+.dropdown .dropbtn {
+
+    font-size: 16px;    
+
+    border: none;
+
+    outline: none;
+
+    color: black;
+
+    padding: 14px 16px;
+
+    background-color: inherit;
+
+font-family: 'Holtwood One SC', serif;
+
+}
+
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+
+    background-color: darkorange;
+
+}
+
+.navbar a:visited{text-decoration:none; color: white;}
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;
+
+    background-color: #f9f9f9;
+
+    width: 100%;
+
+    left: 0;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    z-index: 1;
+
+}
+
+
+
+
+
+.dropdown-content .header {
+
+    background-color: darkorange;
+
+    padding: 16px;
+
+    color: white;
+
+}
+
+
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+
+    float: right;
+
+    width: 33.33%;
+
+    padding: 10px;
+
+    background-color: beige;
+
+    height: 300px;
+
+    
+
+}
+
+
+
+.column a {
+
+    float: none;
+
+    color: black;
+
+    padding: 16px;
+
+    text-decoration: none;
+
+    display: block;
+
+    text-align: left;
+
+}
+
+
+
+.column a:hover {
+
+    background-color: aliceblue;
+
+}
+
+
+
+/* Clear floats after the columns */
+
+.row:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both;
+
+}
+
+.googleplay:hover.comingsoon{
+
+	background-color:red;
+
+	
+
+}
+
+ <style>
+
+  * { margin:0; padding:0; }
+
+  body { position:relative; }
+
+  #box { position:absolute;
+
+    width:40px; height:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    background:linear-gradient(white 0%, #FCE550 100%);
+
+
+
+    animation: SKUCS 2s linear none infinite alternate; }
+
+  #box:hover { animation-play-state: paused; }
+
+  
+
+  @keyframes SKUCS {
+
+    from { left:0; transform:rotate(0deg); }
+
+    80% { left:100px; }
+
+    to { left:50px; transform:rotate(180deg); }
+
+  }
+
+ </style>
+
+    </style>
+
+<!--èª˜ëªƒ?²ï¿½ï¿? ï¿½ï¿½-->
+
+ <style>
+
+    .minion_eye{
+
+        
+
+        width: 410px;
+
+        height: 210px;
+
+        
+
+
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+        margin-top: 60px;
+
+        margin-bottom: 70px;
+
+        
+
+    }
+
+    div.minion_eye:hover{
+
+        background:  url("https://github.com/pkr9707/minion/blob/master/eye.gif?raw=true") no-repeat center ;     
+
+    }
+
+     div.minion_eye:active{
+
+        background: url(https://github.com/pkr9707/minion/blob/master/il_fullxfull.gif?raw=true) no-repeat center;
+
+     }
+
+    .eye1
+
+        {width:200px;
+
+        height: 200px;
+
+        border-radius: 100px;
+
+        background-color: aliceblue;
+
+        float: left;
+
+        margin-left: 0px;}
+
+    .eye2
+
+        {width:200px;
+
+        height: 200px;
+
+        border-radius: 100px;
+
+        background-color: blue;
+
+        float: right;
+
+        margin-right: 5px;}
+
+    </style>
+
+<!--    ï¿½ï¿½ï§žã…»ê½”æ¹²ï¿?-->
+
+<style>
+
+.moving{ 
+
+/*
+
+        width: 160;
+
+        height: 160;
+
+*/
+
+        position: fixed;    
+
+        overflow: hidden;
+
+    left: 0px;
+
+    bottom: 0px;
+
+    margin: 0;
+
+    padding: 0;
+
+        
+
+    }    
+
+    .moving1{
+
+        position: fixed;
+
+        overflow: hidden;
+
+        right: 0px;
+
+        bottom: 0px;
+
+        margin: 0;
+
+        padding: 0;
+
+    }
+
+    </style>
+
+  
+
+    <!--ï¿½ë…¿ì»?-->
+
+    <style>
+
+    .side{position: fixed; margin-top: 15%;  width: 50%; left: 0; margin-left: 0; margin-right: 10%; height: 1100px;font-family: 'Mouse Memoirs', sans-serif;}
+
+        .a{left: 0; background-color: aliceblue; }
+
+        .b{left: 0;background-color: aliceblue;}
+
+        .c{left: 0;background-color: aliceblue;}
+
+        .a,.b,.c{ 
+
+        
+
+        padding-top: 0.7%;
+
+        padding-left: 7%;
+
+        width: 25%; height: 5%;  display: block; 
+
+       -webkit-transition-duration: 2s;
+
+      transition-duration: 2s;
+
+        bottom: 0;
+
+        overflow: hidden;
+
+        display: block;
+
+    }
+
+   
+
+    .a:hover{width: 45%; height: 30%; }
+
+    .b:hover{width: 45%; height: 30%; }
+
+    .c:hover{width: 45%; height: 30%; }
+
+    </style>
+
+    
+
+    <!-- è¹‚ëªƒÐ¦ -->
+
+ <style>
+
+   /* ï§£ï¿½ è¸°ë‰?? ï¿½ï¿½ */
+
+   input:nth-of-type(1) { display:none; }
+
+   input:nth-of-type(1) ~ div:nth-of-type(1) { display:none; }
+
+   input:nth-of-type(1):checked ~ div:nth-of-type(1) { display:block; }
+
+   /* ï¿½ï¿½ è¸°ë‰?? ï¿½ï¿½ */
+
+   input:nth-of-type(2) { display: none; }
+
+   input:nth-of-type(2) ~ div:nth-of-type(2) { display:none; }
+
+   input:nth-of-type(2):checked ~ div:nth-of-type(2) { display:block; }
+
+   /* ï¿½ï¿½ ï§â‘¥ë¼? ?´ÑŠê½¦ */
+
+   section.buttons { overflow: hidden; }
+
+   section.buttons > label { display:block; float:left; margin-right: auto; margin-left: auto;  /* ï¿½ì„‘ë£? ï¿½ëº£?? */
+
+     /* ï¿½Ñˆë¦° è«›ï¿½ æ¹²ï¿½ï¿½ï¿½ ï¿½ê¾©?? ï§žï¿½ï¿½ï¿½*/
+
+     width:400px; height:35px; line-height:30px; text-align:center;
+
+     box-sizing:border-box; border:1px solid steelblue; /* ï¿½ëš®ëª¢ç”±ï¿? ï§žï¿½ï¿½ï¿½ */
+
+     background: aliceblue; color: steelblue; font-family: 'Bungee', cursive;
+
+/* ï¿½ë±ê¸? ï§žï¿½ï¿½ï¿½*/
+
+   }
+
+   input:nth-of-type(1):checked ~ section.buttons > label:nth-of-type(1) {
+
+     background:steelblue; color:dimgray; }
+
+   input:nth-of-type(2):checked ~ section.buttons > label:nth-of-type(2) {
+
+     background:steelblue; color:dimgray; }
+
+ </style>
+
+ <!-- ï§â‘¸ì¤? -->
+
+ <style>
+
+     #content { height: auto;
+
+        width: 800px;
+
+        background-color: aliceblue;
+
+         margin-top: 100px;
+
+
+
+        opacity: 0.9;
+
+     margin: auto;}
+
+.photo{border-radius: 50%;}
+
+   .item { font-family: 'Jaldi', sans-serif; overflow:hidden; padding:10px; border:0px solid steelblue; border-top:none; }
+
+   .thumbnail { float:left; }
+
+   .description { float:left; margin-left:10px; }
+
+ </style>
+
+  <style>
+
+  * { margin:0; padding:0; }
+
+  body { position:relative; }
+
+  #box { position:fixed;
+
+	margin-top:13.5%;
+
+    width:20px; height:20px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    background:linear-gradient(orange 0%, red 100%);
+
+
+
+    animation: SKUCS 4s linear none infinite alternate; }
+
+  #box:hover { animation-play-state: paused; }
+
+  
+
+  @keyframes SKUCS {
+
+    from { left:0; transform:rotate(0deg); }
+
+    100% { left:200px; }
+
+    to { left:210px; transform:rotate(180deg); }
+
+  }
+
+ </style>
+
+
+
+</head>
+
+<body>   <div id="box">
+
+     
+
+   </div>
+
+        <div class="side">
+
+            <div class="a"><strong>Minions <br> Official Trailer 1</strong><div style="position:relative;height:0;margin-top: 5%; padding-top: 5%;padding-bottom:50%;"><iframe src="https://www.youtube.com/embed/76gYFcpI7AE?ecver=2" style="position:absolute;width:100%;height:60%;left:0" width="360" height="150" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></div>
+
+            <div class="b"><strong>Minions<br> Official Trailer 2</strong><div style="position:relative;height:0;margin-top: 2%;padding-top: 10%;padding-bottom:50%;"><iframe src="https://www.youtube.com/embed/znsBUqXTb-I?ecver=2" style="position:absolute;width:100%;height:60%;left:0" width="360" height="150" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></div>
+
+            <div class="b"><strong>Minions <br> Official Trailer 3</strong><div style="position:relative;height:0;margin-top: 2%;padding-top: 10%; padding-bottom:50%;"><iframe src="https://www.youtube.com/embed/Wfql_DoHRKc?ecver=2" style="position:absolute;width:100%;height:60%;left:0" width="360" height="150" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></div>
+
+        </div>
+
+<div class="navbar">
+
+  <a href="http://www.minionsmovie.com/minions.html">MINIONS.COM</a>
+
+  <a href="https://en.wikipedia.org/wiki/Minions_(Despicable_Me)">WIKIPEDIA</a>
+
+ <div class="dropdown">
+
+    <button class="dropbtn">ABOUT MORE
+
+      <i class="fa fa-caret-down"></i>
+
+    </button>
+
+    <div class="dropdown-content">
+
+      <div class="header">
+
+        <h2>MINION SERIES</h2>
+
+      </div>   
+
+      <div class="row">
+
+        <div class="column">
+
+          <h3>MINIONS 2</h3>
+
+            <a href="http://www.imdb.com/title/tt5113044/">IMDB</a>
+
+            <a class="comingsoon" onMouseOver="this.innerHTML='COMINGSOON'" onMouseOut="this.innerHTML='GOOGLE PLAY'"> GOOGLE PLAY</a>
+
+            <a class="comingsoon" onMouseOver="this.innerHTML='COMINGSOON'" onMouseOut="this.innerHTML='APP STORE'"> APP STORE</a>
+
+        </div>
+
+        <div class="column">
+
+          <h3>MINIONS 1</h3>
+
+          <a href="http://www.imdb.com/title/tt2293640/">IMDB</a>
+
+          <a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftDMHM">GOOGLE PLAY</a>
+
+          <a href="https://itunes.apple.com/us/app/minion-rush/id596402997?mt=8">APP STORE</a>
+
+        </div>
+
+        <div class="column">
+
+          <h3>SUPER BAD</h3>
+
+          <a href="http://www.imdb.com/title/tt1323594/">Despicable Me 1</a>
+
+          <a href="http://www.imdb.com/title/tt1690953/">Despicable Me 2</a>
+
+          <a href="http://www.imdb.com/title/tt3469046/">Despicable Me 3</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div> 
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="minion_eye">
+
+<!--
+
+    <div class="eye1"></div>
+
+    <div class="eye2"></div>
+
+-->
+
+    </div>
+
+    
+
+<div id="content">
+
+    <aside id="main_aside">
+
+      <input id="first" type="radio" name="tab" checked="checked" />
+
+      <input id="second" type="radio" name="tab" />
+
+      <section class="buttons">
+
+          <label for="first"><strong>MAIN CHARACTER</strong></label>
+
+          <label for="second"><strong>SOUND EFFECT</strong></label>
+
+      </section>
+
+      <div>
+
+        <ul>
+
+          <li class="item">
+
+            <div class="thumbnail" >
+
+              <img class="photo" src="https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e15/11330523_1459624531027318_129950714_n.jpg?ig_cache_key=MTAzMzY0MzM4Nzk0MjM3Mjk1Mg%3D%3D.2" hight="200px" width="200px" />
+
+            </div>
+
+            <div class="description">
+
+              <strong>KEVIN</strong><p>Kevin loves to make fun of and tease people or Minions,<br> shown when he made fun of Jerry and teases him for being a coward.<br> He loves playing golf and cricket.<br> In the film Minions he is the leader of the trio in search of a new master.<br> He truly cares about the well-being of the Minion tribe.     </p>
+
+            </div>
+
+          </li>
+
+          <li class="item">
+
+            <div class="thumbnail" >
+
+              <img class="photo" src="https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/3cx5/image/Ozi-hGoiqAvYcmibdsiO9e5rAGg.png" hight="200px" width="200px" />
+
+            </div>
+
+            <div class="description">
+
+              <strong>STUART</strong><p>Stuart is playful, friendly, intelligent and funny.<br> He is skillful at video games like his friend Dave.<br> He can also be the most sincere and innocent out of all the minions.<br> He also seems to have a rebellious and obstreperous attitude.<br> He is considered to be a slacker among the other Minions.</p>
+
+	    </div>
+
+          </li>
+
+          <li class="item">
+
+            <div class="thumbnail" >
+
+              <img class="photo"src="https://pbs.twimg.com/profile_images/679787812099510277/BJTPF0Iv.jpg"  hight="200px" width="200px" />
+
+            </div>
+
+
+
+
+
+            <div class="description">
+
+              <strong>BOB</strong><p>Bob is a minion who is more childish and immature than most of the other minions.<br> He is described as a "Little Brother" who finds love in anything and everything,<br> including a rat (who he named Poochy) he found in a sewer in the Minions film.<br> He also enjoys bedtime stories and playing with his favorite stuffed teddy bear, Tim.</p>
+
+            </div>
+
+          </li>
+
+         
+
+        </ul>
+
+      </div>
+
+      <div>
+
+        <ul>
+
+          <li class="item">
+
+            <div class="thumbnail">
+
+               <audio src="MinionBababaBananaSoundEffect.mp3" controls="controls" ></audio>
+
+            </div>
+
+            <div class="description">
+
+              <strong>Bababa Banana</strong><p>from minion</p>
+
+            </div>
+
+          </li>
+
+          <li class="item">
+
+            <div class="thumbnail">
+
+              <audio src="MinionBossSoundEffect.mp3" controls="controls" ></audio>
+
+            </div>
+
+            <div class="description">
+
+              <strong>Boss</strong><p>from despicable me 1</p>
+
+            </div>
+
+          </li>
+
+          <li class="item">
+
+            <div class="thumbnail">
+
+               <audio src="MinionBaDiDaSoundEffect.mp3" controls="controls" ></audio>
+
+            </div>
+
+            <div class="description">
+
+              <strong>BaDiDa</strong><p>from despicable me 1</p>
+
+            </div>
+
+          </li>
+
+          <li class="item">
+
+            <div class="thumbnail">
+
+               <audio src="MinionAhahahaSoundEffect.mp3" controls="controls" ></audio>
+
+            </div>
+
+            <div class="description">
+
+              <strong>Ahahaha</strong><p>from despicable me 2</p>
+
+            </div>
+
+          </li>
+
+<li class="item">
+
+            <div class="thumbnail">
+
+               <audio src="MinionPotatoSoundEffect.mp3" controls="controls" ></audio>
+
+            </div>
+
+            <div class="description">
+
+              <strong>Potato</strong><p>from minion</p>
+
+            </div>
+
+          </li>
+
+<li class="item">
+
+            <div class="thumbnail">
+
+               <audio src="MinionHohohoSoundEffect.mp3" controls="controls" ></audio>
+
+            </div>
+
+            <div class="description">
+
+              <strong>Hohoho</strong><p>from despicable me 3</p>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+  </div>
+
+
+
+    
+
+    <div class="moving"><ul><img src="https://data.whicdn.com/images/198257721/original.gif"></ul></div>
+
+    <div class="moving1"><ul><img src="https://i.giphy.com/media/10xnQPqLl8ZQac/giphy.webp"></ul></div>
+
+    
+
+     <div class="picture" align="center"><img src="https://github.com/pkr9707/minion/blob/master/Minions_kevin_bob_stuart_main.png?raw=true"  hight="365px" width="500px"></div>
+
+
+
+
+
+
+
+
+
+    </body>   
+
+</html>
